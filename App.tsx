@@ -43,6 +43,22 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#f0fdf4] pb-20">
+      {/* ScorX Banner */}
+      <div className="bg-gradient-to-r from-green-600 to-green-500 text-white py-2 px-4 text-center text-sm shadow-md">
+        <p>
+          Brought to you by{' '}
+          <a
+            href="https://scorx.com.au"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold underline hover:text-green-100 transition-colors"
+          >
+            ScorX
+          </a>
+          . Enjoy your summer!
+        </p>
+      </div>
+
       {/* Dynamic Header */}
       <header className="p-6 text-center">
         <div className="inline-flex items-center gap-3 bg-white px-6 py-2 rounded-full shadow-sm border border-green-100">
